@@ -2,7 +2,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2013022600;
+$plugin->version   = 2013061000;
 $plugin->release   = '2.3, release 2';
 $plugin->requires  = 2012062500.00; // Moodle 2.3.0
 $plugin->component = 'block_hub_client';

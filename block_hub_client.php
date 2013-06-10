@@ -26,6 +26,9 @@ class block_hub_client extends block_base
         return false; // AJAX won't work with Dock
     }
 
+	//necessary from 2.4 on, to load the settings.php file
+	function has_config() {return true;}
+	
     /**
      *  Gets a block content
      *  
